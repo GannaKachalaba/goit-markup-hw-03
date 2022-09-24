@@ -19,6 +19,8 @@
   --section-color: #2f303a;
   --footer-link-color: rgba(255, 255, 255, 0.6);
   --button-color: #188ce8;
+  --border-color: #EEEEEE
+
 }
 
 p,
@@ -456,7 +458,7 @@ body {
 }
 
 .pfl {
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--border-color);
 }
 
 .portfolio.list {
@@ -472,6 +474,7 @@ body {
 }
 
 .button.portfolio {
+  /* min-width: 73px; */
   display: inline-block;
   padding: 6px 22px;
   margin-right: 8px;
